@@ -80,7 +80,7 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center space-y-3">
             <p className="text-xs md:text-sm text-muted-foreground leading-relaxed">
-              <strong>Disclaimer:</strong> This opportunity is for U.S. residents only. MyJobsCorner is a job search platform that connects users with employment listings and related offers. Results and availability may vary by location. This page is not affiliated with or endorsed by any employer or brand mentioned. No employment is guaranteed.
+              <strong>Disclaimer:</strong> This opportunity is for U.S. residents only. MyJobsCorner is a job search platform that connects users with employment listings and related offers. Results and availability may vary by location. This page is not affiliated with or endorsed by any employer or brand mentioned directly.
             </p>
             <p className="text-xs text-muted-foreground">
               © {new Date().getFullYear()} MyJobsCorner. All rights reserved.
