@@ -16,8 +16,15 @@ const Index = () => {
             <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
               {/* Left Content */}
               <div className="space-y-6 text-center lg:text-left">
-                {/* CTA Button - First */}
-                <div className="pb-2">
+                <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight">
+                  Looking for flexible work-from-home options near you?
+                </h1>
+                <p className="text-xl md:text-2xl text-muted-foreground">
+                  Discover new ways to connect with legitimate job openings that fit your schedule and location — no experience required.
+                </p>
+                
+                {/* CTA Button */}
+                <div className="pt-2">
                   <Button 
                     variant="hero" 
                     size="lg" 
@@ -27,13 +34,6 @@ const Index = () => {
                     Find Work Opportunities
                   </Button>
                 </div>
-
-                <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight">
-                  Looking for flexible work-from-home options near you?
-                </h1>
-                <p className="text-xl md:text-2xl text-muted-foreground">
-                  Discover new ways to connect with legitimate job openings that fit your schedule and location — no experience required.
-                </p>
                 
                 <div className="space-y-4 py-6">
                   <p className="text-lg text-foreground font-medium">
