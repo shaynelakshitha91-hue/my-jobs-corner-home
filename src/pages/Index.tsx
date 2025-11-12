@@ -16,6 +16,18 @@ const Index = () => {
             <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
               {/* Left Content */}
               <div className="space-y-6 text-center lg:text-left">
+                {/* CTA Button - First */}
+                <div className="pb-2">
+                  <Button 
+                    variant="hero" 
+                    size="lg" 
+                    className="text-lg w-full sm:w-auto"
+                    onClick={handleCTAClick}
+                  >
+                    Find Work Opportunities
+                  </Button>
+                </div>
+
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight">
                   Looking for flexible work-from-home options near you?
                 </h1>
@@ -45,18 +57,6 @@ const Index = () => {
                       <p className="text-base text-foreground">{benefit}</p>
                     </div>
                   ))}
-                </div>
-
-                {/* CTA Button */}
-                <div className="pt-6">
-                  <Button 
-                    variant="hero" 
-                    size="lg" 
-                    className="text-lg w-full sm:w-auto"
-                    onClick={handleCTAClick}
-                  >
-                    Find Work Opportunities
-                  </Button>
                 </div>
               </div>
 
