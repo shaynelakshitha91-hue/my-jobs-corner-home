@@ -40,7 +40,7 @@ const Index = () => {
                     Tired of scrolling through endless listings that lead nowhere?
                   </p>
                   <p className="text-base text-muted-foreground leading-relaxed">
-                    MyJobsCorner helps everyday people connect with real opportunities from verified employers in their area. Simply share a few quick details and explore available openings that match your interests — all from the comfort of home.
+                    This platform helps you discover job openings that fit your lifestyle and location. Share a few quick details to explore current positions from trusted companies — work from home.
                   </p>
                 </div>
 
@@ -82,10 +82,10 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center space-y-3">
             <p className="text-xs md:text-sm text-muted-foreground leading-relaxed">
-              <strong>Disclaimer:</strong> This opportunity is for U.S. residents only. MyJobsCorner is a job search platform that connects users with employment listings and related offers. Results and availability may vary by location. This page is not affiliated with or endorsed by any employer or brand mentioned directly.
+              <strong>Disclaimer:</strong> This opportunity is for U.S. residents only. dreambig99.site is a job search platform that connects users with employment listings and related offers. Results and availability may vary by location. This page is not affiliated with or endorsed by any employer or brand mentioned directly.
             </p>
             <p className="text-xs text-muted-foreground">
-              © {new Date().getFullYear()} MyJobsCorner. All rights reserved.
+              © {new Date().getFullYear()} DreamBig99.site. All rights reserved.
             </p>
           </div>
         </div>
